@@ -3,6 +3,7 @@
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="../styles/register.css">
     <title>Registrar</title>
 </head>
 <body>
@@ -10,11 +11,13 @@
         <form>
             <h1>Registrar</h1>
             <label for="">Email *</label>
-            <input type="email">
+            <input type="email" placeholder="Digite seu email">
             <label for="">Senha *</label>
-            <input type="password">
-            <input type="checkbox" name="" id="">
-            <label id="label-password">Mostrar senha</label>
+            <input type="password" placeholder="Digite sua senha">
+            <div class="password-options">
+                <input type="checkbox" name="" id="checkbox-password">
+                <label for="checkbox-password" id="label-password">Mostrar senha</label>
+            </div>
             <button>Registrar</button>
             <p>Já possui conta? Acesse-a <a href="./login.html">aqui</a></p>
             

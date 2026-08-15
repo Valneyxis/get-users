@@ -3,6 +3,7 @@
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="../styles/recovery.css">
     <title>Recuperar</title>
 </head>
 <body>
@@ -10,13 +11,15 @@
         <form>
             <h1>Recuperar</h1>
             <label>Email</label>
-            <input type="email">
+            <input type="email" placeholder="Digite seu email">
             <label>Nova senha</label>
-            <input id="new-password" type="password">
+            <input id="new-password" type="password" placeholder="Digite sua nova senha">
             <label>Confirmar nova senha</label>
-            <input id="confirm-new-password" type="password">
-            <input type="checkbox" name="" id="">
-            <label id="label-password">Mostrar senha</label>
+            <input id="confirm-new-password" type="password" placeholder="Confirme sua nova senha">
+            <div class="password-options">
+                <input type="checkbox" name="" id="checkbox-password">
+                <label for="checkbox-password" id="label-password">Mostrar senha</label>
+            </div>
             <button>Recuperar</button>
             <p>Não possui Cadastro? Registre-se <a href="./register.html">aqui</a></p>
         </form>

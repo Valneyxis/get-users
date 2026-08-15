@@ -25,6 +25,8 @@ button.addEventListener('click', (event) => {
    
    alert('Acesso permitido.')
 
+   window.location.href = '../pages/home.html'
+
 })
 
 
